@@ -50,69 +50,49 @@
 {
 	margin-top:20px;
 	border-top:3px solid;
-	height:300px;
+	/* height:300px; */
+}
+.floors h4
+{
+	float:left;
 }
 .floor1
 {
 	border-color:#ff9900;
-}
-.floor1 .banner
-{
 	color:#ff9900;
 }
 .floor2
 {
 	border-color:#dd9900;
-}
-.floor2 .banner
-{
 	color:#dd9900;
 }
 .floor3
 {
 	border-color:#cc9900;
-}
-.floor3 .banner
-{
 	color:#cc9900;
 }
 .floor4
 {
 	border-color:#999900;
-}
-.floor4 .banner
-{
 	color:#999900;
 }
 .floor5
 {
 	border-color:#779900;
-}
-.floor5 .banner
-{
 	color:#779900;
 }
 .floor6
 {
 	border-color:#559900;
-}
-.floor6 .banner
-{
 	color:#559900;
 }
 .floor7
 {
 	border-color:#339900;
-}
-.floor7 .banner
-{
 	color:#339900;
 }
 .floor8
 {
 	border-color:#119900;
-}
-.floor8 .banner
-{
 	color:#119900;
 }
