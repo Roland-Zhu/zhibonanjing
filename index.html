@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:wb=“http://open.weibo.com/wb”>
+  <head>
+    <meta charset="utf-8">
+    <title>直播南京</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+    <!-- Le styles -->
+    <link href="http://localhost/zhibonanjing/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/zhibonanjing/css/main.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+    </style>
+    <link href="http://localhost/zhibonanjing/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.bootcss.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="pull-right weibo"><wb:follow-button uid="2848692341" type="red_2" width="136" height="24" ></wb:follow-button></span>
+          <a class="brand active">直播南京</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="dropdown">
+              	<a href="#" class="dropdown-toggle" data-toggle="dropdown">新闻 <b class="caret"></b></a>
+              	<ul class="dropdown-menu">
+                  <li><a href="#">本地新闻</a></li>
+                  <li><a href="#">国内新闻</a></li>
+                  <li><a href="#">国际新闻</a></li>
+                </ul>
+              </li>
+              <li><a href="#about">房产</a></li>
+              <li><a href="#about">汽车</a></li>
+              <li><a href="#contact">教育</a></li>
+              <li><a href="#contact">科技</a></li>
+              <li><a href="#contact">文娱</a></li>
+              <li><a href="#contact">体育</a></li>
+              <li><a href="#contact">吃喝玩乐</a></li>
+              <li><a href="#contact">读图时代</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+	  <div class="row">
+		<div class="span3">
+		  <a id="logo"></a>
+		</div>
+		<div class="span6">
+		  <form id="head-search">
+		  	<div class="input-append">
+		      <input class="span4" id="appendedInputButtons" type="text">
+		      <button class="btn" type="button">搜索</button>
+		    </div>
+		  </form>
+		  <p id="hot-words">
+		  	<a>热词新闻</a>
+		  	<a>热词新闻</a>
+		  	<a>热词新闻</a>
+		  	<a>热词新闻</a>
+		  	<a>热词新闻</a>
+		  	<a>热词新闻</a>
+		  	<a>热词新闻</a>
+		  </p>
+		</div>
+		<div class="span3">
+		  <a id="head-ad"><img src=""/></a>
+		</div>  
+	  </div>
+  	  <hr id="head-box-shard">
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4">
+          <div id="myCarousel" class="carousel slide">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+              <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="item">
+                <a href="#">
+                  <img src="http://www.bootcss.com/assets/img/bootstrap-mdo-sfmoma-01.jpg" alt="">
+                  <div class="carousel-caption">
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item active">
+                <a href="#">
+                  <img src="http://www.bootcss.com/assets/img/bootstrap-mdo-sfmoma-02.jpg" alt="">
+                  <div class="carousel-caption">
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <img src="http://www.bootcss.com/assets/img/bootstrap-mdo-sfmoma-03.jpg" alt="">
+                  <div class="carousel-caption">
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span5">
+          <div class="tabbable">
+		    <ul class="nav nav-tabs">
+		      <li class="active"><a href="#tab1" data-toggle="tab">今日焦点</a></li>
+		      <li><a href="#tab2" data-toggle="tab">南京城事</a></li>
+		      <li><a href="#tab3" data-toggle="tab">国内国际</a></li>
+		    </ul>
+		    <div class="tab-content">
+		      <div class="tab-pane active" id="tab1">
+	            <ul class="unstyled pull-left">
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案发发达</a></li>
+	              <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	            </ul>
+	            <ul class="unstyled pull-right">
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案发发达的</a></li>
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	            </ul>
+		      </div>
+		      <div class="tab-pane" id="tab2">
+	            <ul class="unstyled pull-left">
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案发发达</a></li>
+	              <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	            </ul>
+	            <ul class="unstyled pull-right">
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案发发达</a></li>
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	            </ul>
+		      </div>
+		      <div class="tab-pane" id="tab3">
+		        <ul class="unstyled pull-left">
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案发发达</a></li>
+	              <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	            </ul>
+	            <ul class="unstyled pull-right">
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案发发达的咋样</a></li>
+	          	  <li><i class="icon-thumbs-up"></i> <a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	              <li><a href="#">南京发生抢劫案2生抢劫</a></li>
+	            </ul>
+		      </div>
+		    </div>
+		  </div>
+        </div>
+        <div class="span3">
+          <div class="box-border-top">
+			<div class="box-title">
+			  <span>享乐宁城</span>
+			</div>
+		  </div>
+        </div>
+      </div>
+
+	  <div class="row">
+	    <div class="span12 floors floor1">
+	      <div class="banner">
+	        <h4>1F 房产频道</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor2">
+	      <div class="banner">
+	        <h4>2F 汽车频道</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor3">
+	      <div class="banner">
+	        <h4>3F 教育频道</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor4">
+	      <div class="banner">
+	        <h4>4F 科技频道</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor5">
+	      <div class="banner">
+	        <h4>5F 文娱频道</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor6">
+	      <div class="banner">
+	        <h4>6F 体育频道</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor7">
+	      <div class="banner">
+	        <h4>7F 吃喝玩乐</h4>
+	      </div>
+	    </div>
+	  </div>
+	  
+	  <div class="row">
+	    <div class="span12 floors floor8">
+	      <div class="banner">
+	        <h4>8F 图说南京</h4>
+	      </div>
+	    </div>
+	  </div>
+
+      <hr>
+
+      <footer>
+          <p class="text-center">&copy; zhibonanjing.com 2013</p>
+      </footer>
+
+    </div>
+
+    <script src="//cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.bootcss.com/ajax/libs/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script src="http://localhost/zhibonanjing/js/main.js"></script>
+
+  </body>
+</html>
