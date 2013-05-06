@@ -34,6 +34,8 @@ class Grap extends CI_Controller {
 			echo 'post: ' . $post . "\n=====================================\n"; */
 		}
 		print_r($detail_url_array);
+		$content2 = $this->crawler->deal($detail_url_array);
+		print_r($content2);
 	}
 	
 	public function get_content($regx, $subject) {
