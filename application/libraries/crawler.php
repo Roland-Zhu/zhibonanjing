@@ -66,7 +66,6 @@ class Crawler {
 // 				print_r($ch);
 // 				echo "\n" . (string)$ch . "\n";
 			}
-			print_r($this->_batch_config);
 		}
 		else {
 			$this->_handle = curl_init($this->_url);
